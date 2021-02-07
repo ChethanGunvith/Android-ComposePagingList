@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/searchVenuesFragment">
+
+    <fragment
+        android:id="@+id/searchVenuesFragment"
+        android:name="com.chethan.pagingSample.view.venueSearch.VenuesSearchListFragment"
+        android:label="SearchVenuesFragment">
+        <action
+            android:id="@+id/showDetailsScreen"
+            app:destination="@id/venueDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/venueDetailFragment"
+        android:name="com.chethan.pagingSample.view.venuDetails.VenuesSearchDetailFragment"
+        android:label="VenueDetailFragment">
+        <argument
+            android:name="venuId"
+            app:argType="string" />
+        <argument
+            android:name="venuName"
+            app:argType="string" />
+
+    </fragment>
+
+</navigation>
