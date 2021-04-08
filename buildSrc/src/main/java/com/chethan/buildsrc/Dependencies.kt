@@ -12,7 +12,7 @@ object Dependencies {
         const val versionName = "1.0.0"
     }
 
-    const val androidGradlePlugin = "com.android.tools.build:gradle:7.0.0-alpha04"
+    const val androidGradlePlugin = "com.android.tools.build:gradle:7.0.0-alpha12"
 
     object AndroidX {
         private const val appcompactVersion = "1.3.0-alpha02"
@@ -154,8 +154,8 @@ object Dependencies {
         private const val version = "4.7.1"
         const val timber = "com.jakewharton.timber:timber:$version"
 
-        const val chunk = "com.github.ChuckerTeam.Chucker:library:3.2.0"
-        const val chunkNoOp = "com.github.ChuckerTeam.Chucker:library-no-op:3.2.0"
+        const val chunk = "com.github.ChuckerTeam.Chucker:library:3.4.0"
+        const val chunkNoOp = "com.github.ChuckerTeam.Chucker:library-no-op:3.4.0"
     }
 
 
