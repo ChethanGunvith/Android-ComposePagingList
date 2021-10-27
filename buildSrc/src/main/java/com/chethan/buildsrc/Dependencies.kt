@@ -12,7 +12,7 @@ object Dependencies {
         const val versionName = "1.0.0"
     }
 
-    const val androidGradlePlugin = "com.android.tools.build:gradle:7.0.0-alpha12"
+    const val androidGradlePlugin = "com.android.tools.build:gradle:7.0.2"
 
     object AndroidX {
         private const val appcompactVersion = "1.3.0-alpha02"
